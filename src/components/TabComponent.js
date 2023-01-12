@@ -1,4 +1,4 @@
-import { View, StyleSheet } from "react-native";
+import { View, StyleSheet, Dimensions } from "react-native";
 import React from "react";
 import Recommendation from "./Recommendation";
 import RecentlyViewed from "./RecentlyViewed";
@@ -7,6 +7,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 const Tab = createMaterialTopTabNavigator();
 const Stack = createNativeStackNavigator();
 
+const {height, width} = Dimensions.get("window")
 export default function TabComponent() {
   return (
     <View style={styles.TabComponent}>
@@ -36,6 +37,6 @@ export default function TabComponent() {
 const styles = StyleSheet.create({
   TabComponent: {
     marginTop: 10,
-    height: 500,
+    height: height/2,
   },
 });

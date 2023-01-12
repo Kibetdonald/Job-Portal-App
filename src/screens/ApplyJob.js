@@ -24,6 +24,7 @@ export default function ApplyJob() {
         source={require("../../assets/banner.jpg")}
         style={styles.banner}
       />
+     
       <View style={styles.header}>
         <Ionicons onPress={GoBack} name="arrow-back" size={28} color="black" />
         <Ionicons name="ios-bookmark-sharp" size={28} color="black" />
@@ -34,8 +35,9 @@ export default function ApplyJob() {
           <Text style={styles.title}>{route.params.title}</Text>
           <Text style={styles.date}>{route.params.date}</Text>
         </View>
-        <View style={{ flexDirection: "row" }}>
-          <Text>{route.params.company}</Text>
+        <View style={{ flexDirection: "row",  alignItems:"center" }}>
+        <Image source={{uri: route.params.logo}} style={styles.logo}/>
+          {/* <Text>{route.params.company}</Text> */}
           <View style={{ width: 10 }} />
           <Text style={{ color: "grey" }}>•</Text>
           <View style={{ width: 8 }} />
@@ -88,7 +90,7 @@ export default function ApplyJob() {
           style={styles.companyImage}
         />
       </ScrollView>
-      <View style={{ paddingHorizontal: 20, marginTop: 2 }}>
+      <View style={{ paddingHorizontal: 20 }}>
         <Text style={{ fontSize: 22, fontWeight: "bold" }}>
           Job Description
         </Text>
@@ -152,10 +154,10 @@ const styles = StyleSheet.create({
   ScrollView: {
     marginHorizontal: 10,
     marginTop: 5,
-    maxHeight: 160,
+    maxHeight: 130,
   },
   companyImage: {
-    height: 150,
+    height: 100,
     width: 150,
     borderRadius: 10,
     marginLeft: 20,
@@ -170,4 +172,11 @@ const styles = StyleSheet.create({
     marginHorizontal: 20,
     marginTop: 20,
   },
+  logo:{
+    width: 60,
+    height: 60,
+    borderRadius: 40,
+    // borderWidth: 1,
+    borderColor: "grey"
+  }
 });

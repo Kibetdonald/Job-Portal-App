@@ -8,8 +8,16 @@ import {
   Pressable,
 } from "react-native";
 import React from "react";
-import { Feather, Ionicons, EvilIcons, Entypo, AntDesign, MaterialIcons } from "@expo/vector-icons";
+import {
+  Feather,
+  Ionicons,
+  EvilIcons,
+  Entypo,
+  AntDesign,
+  MaterialIcons,
+} from "@expo/vector-icons";
 import TabComponent from "../components/TabComponent";
+import BottomTab from "../components/BottomTab";
 
 const { width, height } = Dimensions.get("window");
 export default function HomeScreen() {
@@ -51,42 +59,41 @@ export default function HomeScreen() {
       <View style={styles.Priorities}>
         <Pressable style={styles.PriorityBtn}>
           <EvilIcons name="location" size={24} color="white" />
-          <View style={{width: 5}}/>
+          <View style={{ width: 5 }} />
           <Text style={{ color: "#fff" }}>Location</Text>
         </Pressable>
         <Pressable style={styles.PriorityBtn}>
-        <Entypo name="suitcase" size={22} color="white" /> 
-        <View style={{width: 5}}/>
-          <Text style={{ color: "#fff" }}>
-           UX/UI Designer
-          </Text>
+          <Entypo name="suitcase" size={22} color="white" />
+          <View style={{ width: 5 }} />
+          <Text style={{ color: "#fff" }}>UX/UI Designer</Text>
         </Pressable>
         <Pressable style={styles.PriorityBtn}>
           <Ionicons name="timer-outline" size={20} color="white" />
-          <View style={{width: 5}}/>
+          <View style={{ width: 5 }} />
           <Text style={{ color: "#fff" }}>2 Years</Text>
         </Pressable>
       </View>
       <View style={{ height: 20 }} />
       <View style={styles.Priorities}>
         <Pressable style={styles.PriorityBtn}>
-        <AntDesign name="laptop" size={20} color="white" />
-        <View style={{width: 5}}/>
+          <AntDesign name="laptop" size={20} color="white" />
+          <View style={{ width: 5 }} />
           <Text style={{ color: "#fff" }}>Remote</Text>
         </Pressable>
         <Pressable style={styles.PriorityBtn}>
-        <MaterialIcons name="security" size={20} color="white" />
-        <View style={{width: 5}}/>
+          <MaterialIcons name="security" size={20} color="white" />
+          <View style={{ width: 5 }} />
           <Text style={{ color: "#fff" }}>Full Time</Text>
         </Pressable>
         <Pressable style={styles.PriorityBtn}>
-        <AntDesign name="antdesign" size={20} color="white" />
-        <View style={{width: 5}}/>
+          <AntDesign name="antdesign" size={20} color="white" />
+          <View style={{ width: 5 }} />
           <Text style={{ color: "#fff" }}>Design</Text>
         </Pressable>
       </View>
       {/* Tabs */}
-      <TabComponent/>
+      <TabComponent />
+      <BottomTab />
     </View>
   );
 }
@@ -169,7 +176,7 @@ const styles = StyleSheet.create({
   },
   Priorities: {
     flexDirection: "row",
-    justifyContent: "center"
+    justifyContent: "center",
   },
   PriorityBtn: {
     backgroundColor: "#000044",
@@ -180,5 +187,4 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     flexDirection: "row",
   },
-
 });

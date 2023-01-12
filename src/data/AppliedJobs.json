@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "title": "Android Developer",
+    "company": "Amazon",
+    "logo": "https://www.freepnglogos.com/uploads/amazon-png-logo-vector/amazon-png-logo-vector-1.png",
+    "location": "Nairobi, Kenya",
+    "description":"We are looking for an android developer to turn our software into easy-to-use products for our clients. UI/UX Designer responsibilities include gathering user requirementsuirements, designing graphic elements and building navigation components",
+    "date": "2Hours Ago",
+    "status": "Pending Review"
+  },
+  {
+    "id": "2",
+    "title": "Software Developer",
+    "company": "Safaricom PLC.",
+    "logo": "https://www.safaricom.co.ke/images/SAF-MAIN-LOGO.png",
+    "location": "Nairobi, Kenya",
+    "description":"We are looking for an innovative software developer to develop and implement systems architecture that will meet business needs. The solution architect’s responsibilities include gathering requirements and functional specifications",
+    "date": "2Hours Ago",
+    "status": "On Review"
+  },
+  {
+    "id": "3",
+    "title": "Solutions Architect",
+    "company": "Safaricom PLC.",
+    "logo": "https://www.freepnglogos.com/uploads/amazon-png-logo-vector/amazon-png-logo-vector-1.png",
+    "location": "Nairobi, Kenya",
+    "description":"We are looking for an innovative software developer to develop and implement systems architecture that will meet business needs. The solution architect’s responsibilities include gathering requirements and functional specifications",
+    "date": "2Hours Ago",
+    "status": "Declined"
+  }
+]

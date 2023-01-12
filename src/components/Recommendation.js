@@ -40,6 +40,7 @@ export default function Recommendation() {
       >
         <Image source={{ uri: logo }} style={styles.logo} />
         <Text>{company}</Text>
+        <Text style={{ color: "grey" }}>•</Text>
         <Text>{location}</Text>
       </View>
       <Text>Description</Text>

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "title": "Android Developer",
+    "company": "Amazon",
+    "logo": "https://www.freepnglogos.com/uploads/amazon-png-logo-vector/amazon-png-logo-vector-1.png",
+    "location": "Nairobi, Kenya",
+    "description":"We are looking for an android developer to turn our software into easy-to-use products for our clients. UI/UX Designer responsibilities include gathering user requirementsuirements, designing graphic elements and building navigation components",
+    "date": "2Hours Ago",
+    "requirements": "Android developer responsibilities include gathering user requirementsuirements, designing graphic elements and building navigation components. To be successful in this role, you should have experience with design software and wireframe tools. If you also have a portfolio of professional design projects that includes work with web/mobile applications, we’d like to meet you."
+  },
+  {
+    "id": "2",
+    "title": "Software Developer",
+    "company": "Apple Inc.",
+    "logo": "https://w7.pngwing.com/pngs/123/106/png-transparent-apple-logo-logo-apple-icon-information-apple-logo-logo-monochrome-black-thumbnail.png",
+    "location": "Nairobi, Kenya",
+    "description":"We are looking for an innovative software developer to develop and implement systems architecture that will meet business needs. The solution architect’s responsibilities include gathering requirements and functional specifications",
+    "date": "2Hours Ago",
+    "requirements": "Software Developer responsibilities include gathering user requirementsuirements, designing graphic elements and building navigation components. To be successful in this role, you should have experience with design software and wireframe tools. If you also have a portfolio of professional design projects that includes work with web/mobile applications, we’d like to meet you."
+    
+  }
+]
